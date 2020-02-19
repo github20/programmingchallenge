@@ -27,4 +27,5 @@ function Palindrome() {
   return r;
 }
 
-console.log(Palindrome())
+//console.log(Palindrome())
+document.write(Palindrome())
