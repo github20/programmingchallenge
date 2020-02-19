@@ -4,7 +4,7 @@ var arr = [];
 while (arr.length < 101) {
   var r = Math.floor(Math.random() * 100) + 1;
   if (arr.indexOf(r) === -1) arr.push(r);
-}
+};
 
   function bubbleSort(A){
   var switched,
@@ -19,11 +19,11 @@ while (arr.length < 101) {
         A[i] = A[i-1];
         A[i-1] = b;
         switched = true;
-      }   
+      };   
     }
   }
   while(switched)  
-}
+};
 
 bubbleSort(arr);
 //console.log(arr);
