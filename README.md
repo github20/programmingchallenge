@@ -12,7 +12,7 @@ For challenge3.js:
 1. Run the program with string1 and string2 in the "console.log" statement.
 
 For programmingchallenge.py
-Written in Python
+written in Python
 
 Programming Challenge 1
 1. Run Randgen()
