@@ -7,9 +7,9 @@ function isPalindrome(x) {
     while (x > 0) {
         n = n * 10 + x % 10;
         x = x / 10 | 0;
-    }
+    };
     return n === m;
-}
+};
 
 function Palindrome() {
   var r = 0;
@@ -21,11 +21,11 @@ function Palindrome() {
         break;
       } else if (t < r) {
         break;
-      }
-    }
-  }
+      };
+    };
+  };
   return r;
-}
+};
 
 //console.log(Palindrome());
 document.write(Palindrome());
