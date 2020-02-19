@@ -21,7 +21,6 @@ while (arr.length < 101) {
         switched = true;
       }   
     }
-
   }
   while(switched)  
 }
