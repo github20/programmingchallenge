@@ -26,4 +26,5 @@ while (arr.length < 101) {
 }
 
 bubbleSort(arr);
-console.log(arr);
+//console.log(arr);
+document.write(arr);
