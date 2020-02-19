@@ -3,11 +3,11 @@
 
 function anagrams(stringA, stringB) {
     return niceString(stringA) === niceString(stringB);
-}
+};
 
 function niceString(str) {
-    return str.replace(/[^\w]/g).toLowerCase().split('').sort().join()
-}   
+    return str.replace(/[^\w]/g).toLowerCase().split('').sort().join();
+};
 
 //console.log(anagrams('eat','tae'));
 document.write(anagrams('eat','tae'));
