@@ -9,4 +9,5 @@ function niceString(str) {
     return str.replace(/[^\w]/g).toLowerCase().split('').sort().join()
 }   
 
-console.log(anagrams('eat','tae'))
+//console.log(anagrams('eat','tae'))
+document.write(anagrams('eat','tae'))
