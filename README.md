@@ -9,7 +9,7 @@ For challenge2.js:
 1. Run the code.
 
 For challenge3.js:
-1. Run the program with string1 and string2 in the "console.log" statement.
+1. Run the program with string1 and string2 in the "document.write" statement.
 
 For programmingchallenge.py
 written in Python
